@@ -4,18 +4,30 @@ import RightSidebar from "@/components/RightSidebar";
 import TotalBalanceBox from "@/components/TotalBalanceBox";
 import { getAccount, getAccounts } from "@/lib/action/bank.actions";
 import { getLoggedInUser } from "@/lib/action/user.actions";
+import { redirect } from "next/navigation";
 
-const Home = async ({ searchParams: { id, page } }: SearchParamProps) => {
-  const currentPage = Number(page as string) || 1;
+// Define type for search parameters
+type SearchParamProps = {
+  searchParams: { id?: string; page?: string };
+};
+
+const Home = async ({ searchParams }: SearchParamProps) => {
+  const currentPage = Number(searchParams?.page) || 1;
   const loggedIn = await getLoggedInUser();
+
+  // Redirect if user is not logged in
+  if (!loggedIn) {
+    redirect("/sign-in");
+  }
+
   const accounts = await getAccounts({
     userId: loggedIn.$id,
   });
 
-  if (!accounts) return;
+  if (!accounts) return null;
 
   const accountsData = accounts?.data;
-  const appwriteItemId = (id as string) || accountsData[0]?.appwriteItemId;
+  const appwriteItemId = searchParams?.id || accountsData[0]?.appwriteItemId;
 
   const account = await getAccount({ appwriteItemId });
 
