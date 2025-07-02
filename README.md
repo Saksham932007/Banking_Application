@@ -39,11 +39,6 @@ Horizon is a full-stack banking management platform designed to help users secur
 * **Monitoring & Error Tracking:** Sentry
 * **Testing:** (if applicable, add frameworks you used, e.g. Jest, Cypress)
 
-<br>
-
-## 🌍 Deployment
-
-Deployed at: [https://horizonapp.com](https://horizonapp.com) *(replace with actual link if deployed)*
 
 <br>
 
