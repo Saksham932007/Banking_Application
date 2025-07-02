@@ -1,5 +1,3 @@
----
-
 # 🌐 Horizon — Global Banking Management Web App
 
 **Next.js (TypeScript) • Plaid • Dowlio • Sentry**
