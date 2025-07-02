@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
 
-## Getting Started
+# 🌐 Horizon — Global Banking Management Web App
 
-First, run the development server:
+**Next.js (TypeScript) • Plaid • Dowlio • Sentry**
+**Jan 2025 – Present**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Horizon is a full-stack banking management platform designed to help users securely connect, manage, and monitor multiple bank accounts worldwide from a single, intuitive dashboard.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Global Account Connectivity**
+  Seamlessly link multiple bank accounts across more than 5,000 financial institutions using Plaid and Dowlio API integrations.
 
-## Learn More
+* **Unified Personal Finance Dashboard**
+  Manage and track transactions from multiple accounts in one place, supporting up to 10 simultaneous bank accounts.
 
-To learn more about Next.js, take a look at the following resources:
+* **Secure Money Transfers**
+  Built-in money transfer functionality, with encrypted data handling and secure transaction pipelines.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Robust Transaction History**
+  Consolidated transaction logs, allowing users to track spending, transfers, and deposits with detailed reporting.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* **Modern Frontend Architecture**
+  Developed with Next.js (TypeScript) for type safety, scalability, and high performance.
 
-## Deploy on Vercel
+* **Advanced Security & Monitoring**
+  Integrated Sentry for proactive security monitoring and rapid vulnerability resolution.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Responsive and Intuitive UI**
+  A seamless, device-agnostic user experience, ensuring usability across all devices.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<br>
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Next.js, TypeScript
+* **APIs:** Plaid, Dowlio
+* **Monitoring & Error Tracking:** Sentry
+* **Testing:** (if applicable, add frameworks you used, e.g. Jest, Cypress)
+
+<br>
+
+## 🌍 Deployment
+
+Deployed at: [https://horizonapp.com](https://horizonapp.com) *(replace with actual link if deployed)*
+
+<br>
+
+## 🏆 Highlights
+
+* Demonstrated strong initiative by building a global-scale, production-grade web app from scratch
+* Applied best practices in secure financial data handling and scalable architecture
+* Engineered a user-focused product, improving personal finance transparency and accessibility
+* Proactively monitored and mitigated vulnerabilities via Sentry, raising trustworthiness for fintech use cases
+
+
+<br>
+
+## 🤝 Contributing
+
+PRs and suggestions are welcome! Please open an issue first to discuss significant changes.
+
+<br>
+
+## 📄 License
+
+MIT *(or whichever license you choose)*
+
+---
+
